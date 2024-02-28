@@ -1,0 +1,26 @@
+{
+    "name": "microbit iot",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v2": "*",
+        "Environment-IoT": "github:mkleinsb/pxt-iot-environment-kit#v1.1.3",
+        "pxt-esp-thingspeak": "github:mkleinsb/pxt-esp-thingspeak#v0.0.2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.27",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
